@@ -169,11 +169,11 @@ rivals.displayTimeZones = function() {
 rivals.loadTimeZones = function($container) {
   $container.html('');
   
-  var times = rivals.jsonTimes.sort(function(a, b) {
-    if(a[Timezone] == null) { return 1; }
-    if(b[Timezone] == null) { return 0; }
+  var p = 'Timezone', times = rivals.jsonTimes.sort(function(a, b) {
+    if(a[p] == null) { return 1; }
+    if(b[p] == null) { return 0; }
      
-    return (a[Timezone] > b[Timezone]) ? 1 : ((a[Timezone] < b[Timezone]) ? -1 : 0);
+    return (a[p] > b[p]) ? 1 : ((a[p] < b[p]) ? -1 : 0);
   });
   
   $(times).each(function(i,v) {
