@@ -3,7 +3,6 @@ rivals.utils = rivals.utils || {};
 rivals.jsonTimes = [
 	{ Name: '[R]JAXX', Timezone: -10 },
 	{ Name: '~ca~[R]~is~', Timezone: -11 },
-
 	{ Name: '[R]emnant', Timezone: -6 },
 	{ Name: '[R] BasedGod', Timezone: -5 },
 	{ Name: '[R]Camila', Timezone: -5 },
