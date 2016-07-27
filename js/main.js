@@ -168,7 +168,15 @@ rivals.displayTimeZones = function() {
 
 rivals.loadTimeZones = function($container) {
   $container.html('');
-  $(rivals.jsonTimes).each(function(i,v) {
+  
+  var times = rivals.jsonTimes.sort(function(a, b) {
+    if(a[Timezone] == null) { return 1; }
+    if(b[Timezone] == null) { return 0; }
+     
+    return (a[Timezone] > b[Timezone]) ? 1 : ((a[Timezone] < b[Timezone]) ? -1 : 0);
+  });
+  
+  $(times).each(function(i,v) {
     $('<div>Timezone ' + v.Timezone + ' : ' + v.Name + '</div>').appendTo($container);
   });
 }
