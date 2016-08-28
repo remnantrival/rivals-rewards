@@ -23,7 +23,6 @@ rivals.jsonTimes = [
 	{ Name: '[R]Gerrard', Timezone: 1 },
 	{ Name: '[R]Hollie', Timezone: 2 },
 	{ Name: '[R]NastyCloud', Timezone: 2 },
-	{ Name: '[R]Space', Timezone: 2 },
 	{ Name: '[R]Ace♠', Timezone: 3 },
 	{ Name: '[R] AⓇmin', Timezone: 3 },
 	{ Name: '[R]Almog', Timezone: 3 },
@@ -33,7 +32,7 @@ rivals.jsonTimes = [
 	{ Name: '[R]NetanelG', Timezone: 3 },
 	{ Name: '[R] Holy', Timezone: 4 },
 	{ Name: '[R]Prophesy', Timezone: 4 },
-	{ Name: '[R] whatever', Timezone: 4 },
+	{ Name: 'Chesi[R]eCat', Timezone: 4 },
 	{ Name: '[R]EasY', Timezone: 5 },
 	{ Name: '[R]Nightmare', Timezone: 5 },
 	{ Name: '[R] WoOopS', Timezone: 5.5 },
@@ -50,7 +49,7 @@ rivals.jsonTimes = [
 	{ Name: '[R[Vitold', Timezone: 11 },
 	{ Name: '[R]Chip', Timezone: 12 },
 	{ Name: '[R]GR!NGO', Timezone: null },
-	{ Name: '[R]Xarantha', Timezone: null }
+	{ Name: 'i[R]ongirl', Timezone: -4 }
 ];
 
 // Basic timezones
